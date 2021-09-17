@@ -20,7 +20,7 @@ describe('Contact component renders', ()=> {
 
 it('renders', () => {
     const { getByTestId } = render(<Contact />)
-    expect(getByTestId('h1tag')).toHaveTextContent('Contact me')
+    expect(getByTestId('h1tag')).toHaveTextContent('Contact Me')
 })
    
   it('renders', () => {
